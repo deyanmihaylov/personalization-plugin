@@ -1,0 +1,333 @@
+.personalization-cnd_page_add-personalization-condition .hidden {
+  display: none;
+}
+.personalization-cnd_page_add-personalization-condition #add-condition-form {
+  margin-top: 25px;
+}
+.personalization-cnd_page_add-personalization-condition #add-condition-form .column-left {
+  width: calc(100% - 320px);
+  float: left;
+}
+.personalization-cnd_page_add-personalization-condition #add-condition-form .column-right {
+  width: 300px;
+  float: right;
+  text-align: center;
+}
+.personalization-cnd_page_add-personalization-condition #add-condition-form input[type="text"],
+.personalization-cnd_page_add-personalization-condition #add-condition-form textarea {
+  width: 100%;
+}
+.personalization-cnd_page_add-personalization-condition #add-condition-form .postbox h2 {
+  cursor: initial;
+  border-bottom: 1px solid #e6e6e6;
+    background: #f7f7f7;
+}
+.personalization-cnd_page_add-personalization-condition #add-condition-form .error-message {
+  color: #DC3232;
+}
+.personalization-cnd_page_add-personalization-condition textarea[name="description"] {
+  margin: 15px 0;
+  padding: 15px;
+}
+.personalization-cnd_page_add-personalization-condition #title {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
+.personalization-cnd_page_add-personalization-condition #ga-box p {
+  margin-left: 25px;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.personalization-cnd_page_add-personalization-condition #activate-premium-box {
+  border: 1px solid silver;
+  padding: 10px 15px;
+  margin: 25px 0;
+}
+.personalization-cnd_page_add-personalization-condition #activate-premium-box h3 {
+  margin: 5px 0 15px 0;
+}
+.personalization-cnd_page_add-personalization-condition #activate-premium-box .premium-key-holder input {
+  width: 61%;
+  height: 27px;
+}
+.personalization-cnd_page_add-personalization-condition #activate-premium-box .note {
+  margin-top: 5px;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.personalization-cnd_page_add-personalization-condition .condition-choice-container .options-group .option-item {
+  display: inline-block;
+  margin-right:15px;
+}
+input[type=radio]{
+  -webkit-border-radius: 50%;
+border-radius: 50%;
+margin-right: 2px;
+line-height: 9px;
+vertical-align: -3px;
+}
+.personalization-cnd_page_add-personalization-condition .condition-choice-container .wp-editor-wrap {
+  margin-top: 51px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: -6px;
+}
+.personalization-cnd_page_add-personalization-condition .rule-holder {
+  display: inline-block;
+}
+.personalization-cnd_page_add-personalization-condition .rule-content {
+  /*display: inline-block;*/
+  display: none;
+}
+.personalization-cnd_page_add-personalization-condition .btn-add-rule {
+  margin-top: 15px !important;
+}
+.personalization-cnd_page_add-personalization-condition .and-or-rule-group-prototype {
+  margin: 15px 0 0 0;
+  display: none;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
+}
+.personalization-cnd_page_add-personalization-condition .rule-group {
+  width: 100%;
+}
+.personalization-cnd_page_add-personalization-condition .rule-value3-options {
+  display: none;
+}
+.personalization-cnd_page_add-personalization-condition .small-input {
+  width: 100px;
+}
+.personalization-cnd_page_add-personalization-condition .extra-small-input {
+  width: 40px;
+}
+.personalization-cnd_page_add-personalization-condition .datepicker {
+  background: none !important;
+}
+.personalization-cnd_page_add-personalization-condition .remove-button {
+  background: #c5c5c5;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      cursor: pointer;
+      float: right;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      line-height: 17px;
+      text-align: center;
+}
+.personalization-cnd_page_add-personalization-condition .dashicons,
+.personalization-cnd_page_add-personalization-condition .dashicons-before:before{
+  display: inline-block;
+width: 25px;
+height: 25px;
+font-size: 21px;
+line-height: 25px;
+font-family: dashicons;
+text-decoration: inherit;
+font-weight: 400;
+font-style: normal;
+vertical-align: top;
+text-align: center;
+-webkit-transition: color .1s ease-in 0;
+transition: color .1s ease-in 0;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.personalization-cnd_page_add-personalization-condition .remove-button:hover {
+  color: #fff;
+  background: #ef0058;
+}
+.personalization-cnd_page_add-personalization-condition .condition-code-holder {
+  margin-top: 5px;
+  padding: 5px 0;
+}
+.personalization-cnd_page_add-personalization-condition .condition-code-holder p {
+  margin: 0;
+  background: #21759B;
+  color: #fff;
+  padding: 5px;
+}
+.personalization-cnd_page_add-personalization-condition .condition-code-holder small {
+  font-style: italic;
+  color: gray;
+}
+.personalization-cnd_page_add-personalization-condition #paypal-form {
+  display: none;
+}
+.personalization-cnd_page_add-personalization-condition .premium-key-message.error {
+  color: #DC3232;
+  font-weight: bold;
+}
+.personalization-cnd_page_add-personalization-condition .premium-key-message.success {
+  color: #46B450;
+  font-weight: bold;
+}
+.personalization-cnd_page_add-personalization-condition .learn-conditions-box .hndle a.learn-conditions-link {
+  float: right;
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+}
+.personalization-cnd_page_add-personalization-condition .learn-conditions-box .hndle a.learn-conditions-link{
+  text-decoration: none;
+}
+.personalization-cnd_page_add-personalization-condition .learn-conditions-box .hndle a.learn-conditions-link span {
+  text-decoration: none;
+  font-size: 16px;
+  vertical-align: -5px;
+}
+
+.postbox .inside{
+      margin: 15px 0;
+}
+.rule-btn-or{
+  margin-left: -2px!important;
+border-radius: 0!important;
+border: 1px solid #0084bc!important;
+background: none!important;
+color: #848484!important;
+border-left: none!important;
+-webkit-border-top-right-radius: 3px!important;
+-webkit-border-bottom-right-radius: 3px!important;
+-moz-border-radius-topright: 3px!important;
+-moz-border-radius-bottomright: 3px!important;
+border-top-right-radius: 3px!important;
+border-bottom-right-radius: 3px!important;
+box-shadow: none!important;
+width: 60px!important;
+text-align: center!important;
+text-shadow: none!important;
+height:30px!important;
+margin-bottom:5px!important;
+margin-top:5px!important;
+}
+.rule-btn-and{
+  margin-right: -2px!important;
+border-radius: 0!important;
+border: 1px solid #0084bc!important;
+background: none!important;
+color: #848484!important;
+border-right: none!important;
+-webkit-border-top-left-radius: 3px!important;
+-webkit-border-bottom-left-radius: 3px!important;
+-moz-border-radius-topleft: 3px!important;
+-moz-border-radius-bottomleft: 3px!important;
+border-top-left-radius: 3px!important;
+border-bottom-left-radius: 3px!important;
+box-shadow: none!important;
+width: 60px!important;
+text-align: center!important;
+text-shadow: none!important;
+height:30px!important;
+margin-bottom:5px!important;
+margin-top:5px!important;
+}
+
+.rule-btn-and.button-primary,
+.rule-btn-or.button-primary{
+      background: #0085ba!important;
+      color:#fff!important;
+      text-shadow: none!important;
+}
+
+.condition-rules-container select{
+  height: 30px;
+  width: 140px;
+  margin:0;
+  vertical-align: 0px;
+  margin-left:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.condition-rules-container input{
+  height: 30px;
+margin: 0;
+margin-top:5px;
+margin-bottom:5px;
+margin-left: 5px;
+width:350px;
+border-radius: 3px;
+}
+
+.condition-choice-container .options-group{
+  background: #f7f7f7;
+padding: 15px;
+margin-top: -15px;
+margin-left: -12px;
+margin-right: -12px;
+margin-bottom: -28px;
+border-bottom: 1px solid #e9e9e9;
+}
+
+@media only screen and (max-width: 850px){
+.personalization-cnd_page_add-personalization-condition #add-condition-form .column-left,
+.personalization-cnd_page_add-personalization-condition #add-condition-form .column-right{
+  width:100%;
+}
+.learn-conditions-link{
+  display: none!important;
+}
+.condition-rules-container select,
+.condition-rules-container input{
+  height: 42px;
+    font-size: 16px;
+    width:100%;
+    margin-top:10px;
+    border: 1px solid #ddd;
+box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+background-color: #fff;
+color: #32373c;
+outline: 0;
+transition: 50ms border-color ease-in-out;
+max-width:2000px;
+margin-left:0;
+margin-right:0;
+}
+.personalization-cnd_page_add-personalization-condition .remove-button{
+  position: absolute;
+right: 0;
+top: 30px;
+}
+.rule-group{
+  position: relative;
+}
+.personalization-cnd_page_add-personalization-condition .rule-holder{
+  display: block;
+}
+input[type=radio],
+input[type=checkbox]{
+  height: 21px;
+    width: 21px;
+}
+input[type=radio]:checked:before{
+  width: 7px;
+height: 7px;
+margin: 6px;
+}
+.personalization-cnd_page_add-personalization-condition .condition-choice-container .options-group .option-item{
+  margin-top:9px;
+}
+.misc-pub-section{
+  padding:0;
+}
+.draft-btn,
+.publish-btn{
+  width: 45%;
+    margin-right: 2px!important;
+    margin-left: 2px!important;
+}
+.personalization-cnd_page_add-personalization-condition .and-or-rule-group-prototype{
+  margin: 25px 0 0 0;
+    border-top: 2px solid #dadada;
+    padding-top: 25px;
+}
+}

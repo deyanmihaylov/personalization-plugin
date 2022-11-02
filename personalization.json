@@ -1,0 +1,21 @@
+{
+	"name": "Personalization plugin by Flowcraft",
+	"version": "1.1.2",
+	"download_url": "https://personalizationwp.com/wp-update-files/personalization-wp.zip",
+
+	"homepage": "https://personalizationwp.com/",
+	"requires": "4.5",
+	"tested": "5.0",
+	"last_updated": "2018-12-5 23:20:20",
+	"upgrade_notice": "Here's why you should upgrade...",
+
+	"author": "Flowcraft UX Design Studio",
+	"author_homepage": "http://flowcraft.cc/",
+
+	"sections": {
+		"description": "<p>The Personalization plugin for WordPress by Flowcraft UX Design Studio allows you to segment and target different user audiences, based on geo location, pages visited, device, date and time, day of the week and more and show different content to each group.</p><p> The plugin is very easy to use and does not require any coding skills. Simply choose what content to display when a visitor meets a certain condition and what to show when the condition is not met. You also have the option not to show anything (leave your website unchanged) when the condition is not met.</p>"
+	},
+	"icons" : { },
+	"banners": {},
+	"translations": []
+}
